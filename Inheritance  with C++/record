@@ -1,0 +1,245 @@
+Script started on Sat 05 Dec 2015 08:37:52 PM PST
+]0;asfir001@empress:~/CS351/Final_Project/Prolog[asfir001@empress Prolog]$ g++ asfiranedriver.cpp asfiranecircle.cpp asfiranesphere.cpp asfiranes[Krectangle.cpp asfiranesquare.cpp asfiranecube.cpp [C[C[1@-[1@o[1@ [C[1@a[1@s[1@f[1@i[1@r[C[1@a[1@n[1@e[1@h[1@i[1@e[1@r[1@e[1P[C[1@a[1@r[1@c[1@y[1P[1P[1@c[1@h[1@y[1@ 
+In file included from asfiranedriver.cpp:9:
+asfiranesquare.h:12:29: error: asfiranepolygon.h: No such file or directory
+asfiranesquare.h:34:7: warning: no newline at end of file
+In file included from asfiranecircle.h:11,
+                 from asfiranedriver.cpp:10:
+asfiraneshape.h:28:7: warning: no newline at end of file
+In file included from asfiranedriver.cpp:11:
+asfiranecube.h:34:7: warning: no newline at end of file
+In file included from asfiranedriver.cpp:12:
+asfiranerectangle.h:35:7: warning: no newline at end of file
+In file included from asfiranedriver.cpp:13:
+asfiranesphere.h:34:7: warning: no newline at end of file
+asfiranedriver.cpp:157:2: warning: no newline at end of file
+asfiranesquare.h:15: error: expected class-name before ‘{’ token
+asfiranerectangle.h:15: error: expected class-name before ‘{’ token
+In file included from asfiranecircle.h:11,
+                 from asfiranecircle.cpp:11:
+asfiraneshape.h:28:7: warning: no newline at end of file
+In file included from asfiranecircle.h:11,
+                 from asfiranesphere.h:12,
+                 from asfiranesphere.cpp:11:
+asfiraneshape.h:28:7: warning: no newline at end of file
+In file included from asfiranesphere.cpp:11:
+asfiranesphere.h:34:7: warning: no newline at end of file
+In file included from asfiranerectangle.cpp:11:
+asfiranerectangle.h:12:29: error: asfiranepolygon.h: No such file or directory
+asfiranerectangle.h:35:7: warning: no newline at end of file
+asfiranerectangle.h:15: error: expected class-name before ‘{’ token
+In file included from asfiranesquare.cpp:11:
+asfiranesquare.h:12:29: error: asfiranepolygon.h: No such file or directory
+asfiranesquare.h:34:7: warning: no newline at end of file
+asfiranesquare.h:15: error: expected class-name before ‘{’ token
+In file included from asfiranecube.h:12,
+                 from asfiranecube.cpp:11:
+asfiranesquare.h:12:29: error: asfiranepolygon.h: No such file or directory
+asfiranesquare.h:34:7: warning: no newline at end of file
+In file included from asfiranecube.cpp:11:
+asfiranecube.h:34:7: warning: no newline at end of file
+asfiranesquare.h:15: error: expected class-name before ‘{’ token
+]0;asfir001@empress:~/CS351/Final_Project/Prolog[asfir001@empress Prolog]$ ls
+[00m[00masfiranecircle.cpp[00m  [00masfiranecube.cpp[00m  [00masfiranedriver.cpp[00m     [00masfiranerectangle.h[00m  [00masfiraneshape.h[00m     [00masfiranesphere.h[00m    [00masfiranesquare.h[00m
+[00masfiranecircle.h[00m    [00masfiranecube.h[00m    [00masfiranerectangle.cpp[00m  [00masfiraneshape.cpp[00m    [00masfiranesphere.cpp[00m  [00masfiranesquare.cpp[00m  [00mrecord[00m
+[m]0;asfir001@empress:~/CS351/Final_Project/Prolog[asfir001@empress Prolog]$ lsg++ -o asfiranehierarchy asfiranedriver.cpp asfiranecircle.cpp asfiranesphere.cpp asfiranerectangle.cpp asfiranesquare.cpp asfiranecube.cpp [C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@ [1@ [1@ 
+In file included from asfiranedriver.cpp:9:
+asfiranesquare.h:12:29: error: asfiranepolygon.h: No such file or directory
+asfiranesquare.h:34:7: warning: no newline at end of file
+In file included from asfiranecircle.h:11,
+                 from asfiranedriver.cpp:10:
+asfiraneshape.h:28:7: warning: no newline at end of file
+In file included from asfiranedriver.cpp:11:
+asfiranecube.h:34:7: warning: no newline at end of file
+In file included from asfiranedriver.cpp:12:
+asfiranerectangle.h:35:7: warning: no newline at end of file
+In file included from asfiranedriver.cpp:13:
+asfiranesphere.h:34:7: warning: no newline at end of file
+asfiranedriver.cpp:157:2: warning: no newline at end of file
+asfiranesquare.h:15: error: expected class-name before ‘{’ token
+asfiranerectangle.h:15: error: expected class-name before ‘{’ token
+In file included from asfiranecircle.h:11,
+                 from asfiranecircle.cpp:11:
+asfiraneshape.h:28:7: warning: no newline at end of file
+In file included from asfiranecircle.h:11,
+                 from asfiranesphere.h:12,
+                 from asfiranesphere.cpp:11:
+asfiraneshape.h:28:7: warning: no newline at end of file
+In file included from asfiranesphere.cpp:11:
+asfiranesphere.h:34:7: warning: no newline at end of file
+In file included from asfiranerectangle.cpp:11:
+asfiranerectangle.h:12:29: error: asfiranepolygon.h: No such file or directory
+asfiranerectangle.h:35:7: warning: no newline at end of file
+asfiranerectangle.h:15: error: expected class-name before ‘{’ token
+In file included from asfiranesquare.cpp:11:
+asfiranesquare.h:12:29: error: asfiranepolygon.h: No such file or directory
+asfiranesquare.h:34:7: warning: no newline at end of file
+asfiranesquare.h:15: error: expected class-name before ‘{’ token
+In file included from asfiranecube.h:12,
+                 from asfiranecube.cpp:11:
+asfiranesquare.h:12:29: error: asfiranepolygon.h: No such file or directory
+asfiranesquare.h:34:7: warning: no newline at end of file
+In file included from asfiranecube.cpp:11:
+asfiranecube.h:34:7: warning: no newline at end of file
+asfiranesquare.h:15: error: expected class-name before ‘{’ token
+]0;asfir001@empress:~/CS351/Final_Project/Prolog[asfir001@empress Prolog]$ ls
+[00m[00masfiranecircle.cpp[00m  [00masfiranecube.cpp[00m  [00masfiranedriver.cpp[00m  [00masfiranerectangle.cpp[00m  [00masfiraneshape.h[00m     [00masfiranesphere.h[00m    [00masfiranesquare.h[00m
+[00masfiranecircle.h[00m    [00masfiranecube.h[00m    [00masfiranepolygon.h[00m   [00masfiranerectangle.h[00m    [00masfiranesphere.cpp[00m  [00masfiranesquare.cpp[00m  [00mrecord[00m
+[m]0;asfir001@empress:~/CS351/Final_Project/Prolog[asfir001@empress Prolog]$ lsg++   asfiranedriver.cpp asfiranecircle.cpp asfiranesphere.cpp asfiranerectangle.cpp asfiranesquare.cpp asfiranecube.cpp [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kg++ -o asfiranehierarchy asfiranedriver.cpp asfiranecircle.cpp asfiranesphere.cpp asfiranerectangle.cpp asfiranesquare.cpp asfiranecube.cpp 
+In file included from asfiranepolygon.h:13,
+                 from asfiranesquare.h:12,
+                 from asfiranedriver.cpp:9:
+asfiraneshape.h:28:7: warning: no newline at end of file
+In file included from asfiranesquare.h:12,
+                 from asfiranedriver.cpp:9:
+asfiranepolygon.h:27:7: warning: no newline at end of file
+In file included from asfiranedriver.cpp:9:
+asfiranesquare.h:34:7: warning: no newline at end of file
+In file included from asfiranedriver.cpp:11:
+asfiranecube.h:34:7: warning: no newline at end of file
+In file included from asfiranedriver.cpp:12:
+asfiranerectangle.h:35:7: warning: no newline at end of file
+In file included from asfiranedriver.cpp:13:
+asfiranesphere.h:34:7: warning: no newline at end of file
+asfiranedriver.cpp:157:2: warning: no newline at end of file
+In file included from asfiranecircle.h:11,
+                 from asfiranecircle.cpp:11:
+asfiraneshape.h:28:7: warning: no newline at end of file
+In file included from asfiranecircle.h:11,
+                 from asfiranesphere.h:12,
+                 from asfiranesphere.cpp:11:
+asfiraneshape.h:28:7: warning: no newline at end of file
+In file included from asfiranesphere.cpp:11:
+asfiranesphere.h:34:7: warning: no newline at end of file
+In file included from asfiranepolygon.h:13,
+                 from asfiranerectangle.h:12,
+                 from asfiranerectangle.cpp:11:
+asfiraneshape.h:28:7: warning: no newline at end of file
+In file included from asfiranerectangle.h:12,
+                 from asfiranerectangle.cpp:11:
+asfiranepolygon.h:27:7: warning: no newline at end of file
+In file included from asfiranerectangle.cpp:11:
+asfiranerectangle.h:35:7: warning: no newline at end of file
+In file included from asfiranepolygon.h:13,
+                 from asfiranesquare.h:12,
+                 from asfiranesquare.cpp:11:
+asfiraneshape.h:28:7: warning: no newline at end of file
+In file included from asfiranesquare.h:12,
+                 from asfiranesquare.cpp:11:
+asfiranepolygon.h:27:7: warning: no newline at end of file
+In file included from asfiranesquare.cpp:11:
+asfiranesquare.h:34:7: warning: no newline at end of file
+In file included from asfiranepolygon.h:13,
+                 from asfiranesquare.h:12,
+                 from asfiranecube.h:12,
+                 from asfiranecube.cpp:11:
+asfiraneshape.h:28:7: warning: no newline at end of file
+In file included from asfiranesquare.h:12,
+                 from asfiranecube.h:12,
+                 from asfiranecube.cpp:11:
+asfiranepolygon.h:27:7: warning: no newline at end of file
+In file included from asfiranecube.h:12,
+                 from asfiranecube.cpp:11:
+asfiranesquare.h:34:7: warning: no newline at end of file
+In file included from asfiranecube.cpp:11:
+asfiranecube.h:34:7: warning: no newline at end of file
+]0;asfir001@empress:~/CS351/Final_Project/Prolog[asfir001@empress Prolog]$ ls
+[00m[00masfiranecircle.cpp[00m  [00masfiranecube.cpp[00m  [00masfiranedriver.cpp[00m  [00masfiranepolygon.h[00m      [00masfiranerectangle.h[00m  [00masfiranesphere.cpp[00m  [00masfiranesquare.cpp[00m  [00mrecord[00m
+[00masfiranecircle.h[00m    [00masfiranecube.h[00m    [00;32masfiranehierarchy[00m   [00masfiranerectangle.cpp[00m  [00masfiraneshape.h[00m      [00masfiranesphere.h[00m    [00masfiranesquare.h[00m
+[m]0;asfir001@empress:~/CS351/Final_Project/Prolog[asfir001@empress Prolog]$ ./asfiranehierarcy[Khy
+Enter a number for the menu item you want selected!
+1. calculate the characteristics of a Circle
+2. calculate the characteristics of a Sphere
+3. calculate the  characteristics of a Rectangle
+4. calculate the  characteristics of a Square
+5. calculate the  characteristics of a Cube
+6. Quit
+1
+ enter the radius for the circle 
+2
+The area of the circle is :12.5664
+The perimiter of the circle is :12.5664
+Volume not defined for Circle 
+Enter a number for the menu item you want selected!
+1. calculate the characteristics of a Circle
+2. calculate the characteristics of a Sphere
+3. calculate the  characteristics of a Rectangle
+4. calculate the  characteristics of a Square
+5. calculate the  characteristics of a Cube
+6. Quit
+2
+ enter the radius for the sphere 
+2
+The area of the sphere is :50.2655
+The perimiter of the sphere is :12.5664
+The volume of the sphere is :33.5103
+Enter a number for the menu item you want selected!
+1. calculate the characteristics of a Circle
+2. calculate the characteristics of a Sphere
+3. calculate the  characteristics of a Rectangle
+4. calculate the  characteristics of a Square
+5. calculate the  characteristics of a Cube
+6. Quit
+
+3
+ enter the length of the rectangle first 
+2
+ enter the width of the rectangle now 
+3
+The area of the rectangle is :6
+The perimiter of the rectangle is :10
+Volume not defined for Rectangle 
+Enter a number for the menu item you want selected!
+1. calculate the characteristics of a Circle
+2. calculate the characteristics of a Sphere
+3. calculate the  characteristics of a Rectangle
+4. calculate the  characteristics of a Square
+5. calculate the  characteristics of a Cube
+6. Quit
+4
+ enter the length for the square 
+2
+The area of the square is :4
+The perimiter of the square is :8
+Volume not defined for Square 
+Enter a number for the menu item you want selected!
+1. calculate the characteristics of a Circle
+2. calculate the characteristics of a Sphere
+3. calculate the  characteristics of a Rectangle
+4. calculate the  characteristics of a Square
+5. calculate the  characteristics of a Cube
+6. Quit
+5
+ enter the radius for the cube 
+4
+The area of the cube is :96
+The perimiter of the cube is :48
+The volume of the cube is :64
+Enter a number for the menu item you want selected!
+1. calculate the characteristics of a Circle
+2. calculate the characteristics of a Sphere
+3. calculate the  characteristics of a Rectangle
+4. calculate the  characteristics of a Square
+5. calculate the  characteristics of a Cube
+6. Quit
+6
+The program is going to quit !
+]0;asfir001@empress:~/CS351/Final_Project/Prolog[asfir001@empress Prolog]$ ls
+[00m[00masfiranecircle.cpp[00m  [00masfiranecube.cpp[00m  [00masfiranedriver.cpp[00m  [00masfiranepolygon.h[00m      [00masfiranerectangle.h[00m  [00masfiranesphere.cpp[00m  [00masfiranesquare.cpp[00m  [00mrecord[00m
+[00masfiranecircle.h[00m    [00masfiranecube.h[00m    [00;32masfiranehierarchy[00m   [00masfiranerectangle.cpp[00m  [00masfiraneshape.h[00m      [00masfiranesphere.h[00m    [00masfiranesquare.h[00m
+[m]0;asfir001@empress:~/CS351/Final_Project/Prolog[asfir001@empress Prolog]$ biew[K[K[K[Kview record
+[?1049h[?1h=[1;44r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[44;1H"record" "record" [readonly] 0L, 0C[2;1H[1m[34m~                                                                                                                                                                       [3;1H~                                                                                                                                                                       [4;1H~                                                                                                                                                                       [5;1H~                                                                                                                                                                       [6;1H~                                                                                                                                                                       [7;1H~                                                                                                                                                                       [8;1H~                                                                                                                                                                       [9;1H~                                                                                                                                                                       [10;1H~                                                                                                                                                                       [11;1H~                                                                                                                                                                       [12;1H~                                                                                                                                                                       [13;1H~                                                                                                                                                                       [14;1H~                                                                                                                                                                       [15;1H~                                                                                                                                                                       [16;1H~                                                                                                                                                                       [17;1H~                                                                                                                                                                       [18;1H~                                                                                                                                                                       [19;1H~                                                                                                                                                                       [20;1H~                                                                                                                                                                       [21;1H~                                                                                                                                                                       [22;1H~                                                                                                                                                                       [23;1H~                                                                                                                                                                       [24;1H~                                                                                                                                                                       [25;1H~                                                                                                                                                                       [26;1H~                                                                                                                                                                       [27;1H~                                                                                                                                                                       [28;1H~                                                                                                                                                                       [29;1H~                                                                                                                                                                       [30;1H~                                                                                                                                                                       [31;1H~                                                                                                                                                                       [32;1H~                                                                                                                                                                       [33;1H~                                                                                                                                                                       [34;1H~                                                                                                                                                                       [35;1H~                                                                                                                                                                       [36;1H~                                                                                                                                                                       [37;1H~                                                                                                                                                                       [38;1H~                                                                                                                                                                       [39;1H~                                                                                                                                                                       [40;1H~                                                                                                                                                                       [41;1H~                                                                                                                                                                       [42;1H~                                                                                                                                                                       [43;1H~                                                                                                                                                                       [1;1H[?12l[?25h[44;1H
+[m[?1l>[?1049l
+[1]+  Stopped                 view record
+]0;asfir001@empress:~/CS351/Final_Project/Prolog[asfir001@empress Prolog]$ 
+]0;asfir001@empress:~/CS351/Final_Project/Prolog[asfir001@empress Prolog]$ exit
+exit
+There are stopped jobs.
+]0;asfir001@empress:~/CS351/Final_Project/Prolog[asfir001@empress Prolog]$ quit
+bash: quit: command not found
+]0;asfir001@empress:~/CS351/Final_Project/Prolog[asfir001@empress Prolog]$ logout
+bash: logout: not login shell: use `exit'
+]0;asfir001@empress:~/CS351/Final_Project/Prolog[asfir001@empress Prolog]$ exit
+exit
+[?1049h[?1h=
+Script done on Sat 05 Dec 2015 08:51:45 PM PST
