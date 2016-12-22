@@ -1,0 +1,168 @@
+(|SYSTEM|::|VERSION| '(20080430.))
+#0Y_ #0Y |CHARSET|::|UTF-8|
+#Y(#:|1 5 (DEFUN TOROMAN (LIST) ...)-1|
+   #20Y(00 00 00 00 00 00 00 00 20 01 DA 2F 01 DA DC 32 9C C5 19 01)
+   (|COMMON-LISP-USER|::|TOROMAN| |SYSTEM|::|REMOVE-OLD-DEFINITIONS|
+    #Y(|COMMON-LISP-USER|::|TOROMAN|
+       #39Y(00 00 00 00 01 00 00 00 26 02 DA 6B 01 94 03 33 02 15 94 01 2F 02
+            AD 71 A0 DD 90 01 32 03 00 19 02 95 01 29 01 03 63)
+       (#Y(|COMMON-LISP-USER|::|TOROMAN-1|
+           #34Y(00 00 00 00 02 00 00 00 21 18 AF 31 98 AE B0 31 90 AF 01 02 DA
+                63 2D 05 01 DC B0 38 02 31 95 9E 19 04)
+           (5. |SYSTEM|::|FORMAT-TABULATE| "  is  ")
+           (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+        |COMMON-LISP|::|*STANDARD-OUTPUT*| |COMMON-LISP-USER|::|BREAK-ROMAN|
+        1.)
+       (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|)
+       (|COMMON-LISP|::|LIST|)
+       "Process the list received as argument recursively and calls Break-Roman function to convert each list member natural (Arabic) numeral to the corresponding roman numeral and displays the list."
+       1))
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|7 35 (DEFUN BREAK-ROMAN (NUMBER) ...)-2|
+   #20Y(00 00 00 00 00 00 00 00 20 01 DA 2F 01 DA DC 32 9C C5 19 01)
+   (|COMMON-LISP-USER|::|BREAK-ROMAN| |SYSTEM|::|REMOVE-OLD-DEFINITIONS|
+    #Y(|COMMON-LISP-USER|::|BREAK-ROMAN|
+       #591Y(00 00 00 00 01 00 00 00 26 02 AD DA 91 01 34 07 DB 6B 02 DD 33 02
+             15 AD DA 90 01 34 81 A1 AD DF 91 01 34 0D AD DA 91 01 31 07 E0 6B
+             02 E1 33 02 15 AD DF 91 01 34 07 AD DA 90 01 31 81 8C AD E3 91 01
+             34 0D AD DF 91 01 31 07 E4 6B 02 E5 33 02 15 AD E3 91 01 34 07 AD
+             DF 90 01 31 81 77 AD E7 91 01 34 0D AD E3 91 01 31 07 E8 6B 02 E9
+             33 02 15 AD E7 91 01 34 07 AD E3 90 01 31 81 62 AD EB 91 01 34 0D
+             AD E7 91 01 31 07 EC 6B 02 ED 33 02 15 AD EB 91 01 34 07 AD E7 90
+             01 31 81 4D AD EF 91 01 34 0D AD EB 91 01 31 07 F0 6B 02 F1 33 02
+             15 AD EF 91 01 34 07 AD EB 90 01 31 81 38 AD F3 91 01 34 0D AD EF
+             91 01 31 07 F4 6B 02 F5 33 02 15 AD F3 91 01 34 07 AD EF 90 01 31
+             81 23 AD F7 91 01 34 0F AD F3 91 01 31 09 65 1E 6B 02 65 1F 33 02
+             15 AD F7 91 01 34 07 AD F3 90 01 31 81 0C AD 65 21 91 01 34 0F AD
+             F7 91 01 31 09 65 22 6B 02 65 23 33 02 15 AD 65 21 91 01 34 07 AD
+             F7 90 01 31 80 F4 AD 65 25 91 01 34 10 AD 65 21 91 01 31 09 65 26
+             6B 02 65 27 33 02 15 AD 65 25 91 01 34 08 AD 65 21 90 01 31 80 DA
+             AD 65 29 91 01 34 10 AD 65 25 91 01 31 09 65 2A 6B 02 65 2B 33 02
+             15 AD 65 29 91 01 34 08 AD 65 25 90 01 31 80 C0 AD 65 2D 91 01 34
+             10 AD 65 29 91 01 31 09 65 2E 6B 02 65 2F 33 02 15 AD 65 2D 91 01
+             34 08 AD 65 29 90 01 31 80 A6 AD 65 31 91 01 34 10 AD 65 2D 91 01
+             31 09 65 32 6B 02 65 33 33 02 15 AD 65 31 91 01 34 08 AD 65 2D 90
+             01 31 80 8C 00 19 02 DE AE 73 02 37 28 FE 43 1B FE 67 E2 AE 73 02
+             37 28 FE 38 1B FE 7C E6 AE 73 02 37 28 FE 2D 1B FE 91 EA AE 73 02
+             37 28 FE 22 1B FE A6 EE AE 73 02 37 28 FE 17 1B FE BB F2 AE 73 02
+             37 28 FE 0C 1B FE D0 F6 AE 73 02 37 28 FE 01 1B FE E7 65 20 AE 73
+             02 37 28 FD F5 1B FE FE 65 24 AE 73 02 37 28 FD E9 1B FF 17 65 28
+             AE 73 02 37 28 FD DD 1B FF 31 65 2C AE 73 02 37 28 FD D1 1B FF 4B
+             65 30 AE 73 02 37 28 FD C5 1B FF 65 97 01 29 01 03 FD BB)
+       (1000.
+        #Y(|COMMON-LISP-USER|::|BREAK-ROMAN-1|
+           #17Y(00 00 00 00 02 00 00 00 21 18 AE B0 31 90 9E 19 04) ()
+           (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+        |COMMON-LISP|::|*STANDARD-OUTPUT*| "M" -1000. 900.
+        #Y(|COMMON-LISP-USER|::|BREAK-ROMAN-2|
+           #17Y(00 00 00 00 02 00 00 00 21 18 AE B0 31 90 9E 19 04) ()
+           (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+        "CM" -900. 500.
+        #Y(|COMMON-LISP-USER|::|BREAK-ROMAN-3|
+           #17Y(00 00 00 00 02 00 00 00 21 18 AE B0 31 90 9E 19 04) ()
+           (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+        "D" -500. 400.
+        #Y(|COMMON-LISP-USER|::|BREAK-ROMAN-4|
+           #17Y(00 00 00 00 02 00 00 00 21 18 AE B0 31 90 9E 19 04) ()
+           (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+        "CD" -400. 100.
+        #Y(|COMMON-LISP-USER|::|BREAK-ROMAN-5|
+           #17Y(00 00 00 00 02 00 00 00 21 18 AE B0 31 90 9E 19 04) ()
+           (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+        "C" -100. 90.
+        #Y(|COMMON-LISP-USER|::|BREAK-ROMAN-6|
+           #17Y(00 00 00 00 02 00 00 00 21 18 AE B0 31 90 9E 19 04) ()
+           (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+        "XC" -90. 50.
+        #Y(|COMMON-LISP-USER|::|BREAK-ROMAN-7|
+           #17Y(00 00 00 00 02 00 00 00 21 18 AE B0 31 90 9E 19 04) ()
+           (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+        "L" -50. 40.
+        #Y(|COMMON-LISP-USER|::|BREAK-ROMAN-8|
+           #17Y(00 00 00 00 02 00 00 00 21 18 AE B0 31 90 9E 19 04) ()
+           (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+        "XL" -40. 10.
+        #Y(|COMMON-LISP-USER|::|BREAK-ROMAN-9|
+           #17Y(00 00 00 00 02 00 00 00 21 18 AE B0 31 90 9E 19 04) ()
+           (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+        "X" -10. 9.
+        #Y(|COMMON-LISP-USER|::|BREAK-ROMAN-10|
+           #17Y(00 00 00 00 02 00 00 00 21 18 AE B0 31 90 9E 19 04) ()
+           (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+        "IX" -9. 5.
+        #Y(|COMMON-LISP-USER|::|BREAK-ROMAN-11|
+           #17Y(00 00 00 00 02 00 00 00 21 18 AE B0 31 90 9E 19 04) ()
+           (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+        "V" -5. 4.
+        #Y(|COMMON-LISP-USER|::|BREAK-ROMAN-12|
+           #17Y(00 00 00 00 02 00 00 00 21 18 AE B0 31 90 9E 19 04) ()
+           (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+        "IV" -4. 1.
+        #Y(|COMMON-LISP-USER|::|BREAK-ROMAN-13|
+           #17Y(00 00 00 00 02 00 00 00 21 18 AE B0 31 90 9E 19 04) ()
+           (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+        "I")
+       (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|)
+       (|COMMON-LISP|::|NUMBER|)
+       "Converts the natural (Arabic) numeral received as argument to the corresponding roman numeral and returns it."
+       1))
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|38 41 (DEFUN TONATURAL (LIST) ...)-3|
+   #20Y(00 00 00 00 00 00 00 00 20 01 DA 2F 01 DA DC 32 9C C5 19 01)
+   (|COMMON-LISP-USER|::|TONATURAL| |SYSTEM|::|REMOVE-OLD-DEFINITIONS|
+    #Y(|COMMON-LISP-USER|::|TONATURAL|
+       #39Y(00 00 00 00 01 00 00 00 26 02 DA 6B 01 94 03 94 04 6F 02 33 03 15
+            AD 71 A0 DD 90 01 32 03 00 19 02 95 01 29 01 03 63)
+       (#Y(|COMMON-LISP-USER|::|TONATURAL-1|
+           #45Y(00 00 00 00 03 00 00 00 21 19 B0 31 98 AF B1 31 90 B0 01 02 DA
+                63 2D 05 01 DC B1 38 02 31 95 B0 01 06 B5 2D 08 03 DE B1 31 94
+                9E 19 05)
+           (5. |SYSTEM|::|FORMAT-TABULATE| " is  "
+            |SYSTEM|::|DO-FORMAT-DECIMAL| #\Space)
+           (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+        |COMMON-LISP|::|*STANDARD-OUTPUT*| |COMMON-LISP-USER|::|BREAK-ARABIC|
+        1.)
+       (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|)
+       (|COMMON-LISP|::|LIST|)
+       "Process the list argument recursively and calls Break-Arabic function to convert each list roman numeral to the corresponding natural (Arabic) numeral and displays the list."
+       1))
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|43 72 (DEFUN BREAK-ARABIC (STRING) ...)-4|
+   #20Y(00 00 00 00 00 00 00 00 20 01 DA 2F 01 DA DC 32 9C C5 19 01)
+   (|COMMON-LISP-USER|::|BREAK-ARABIC| |SYSTEM|::|REMOVE-OLD-DEFINITIONS|
+    #Y(|COMMON-LISP-USER|::|BREAK-ARABIC|
+       #577Y(00 00 00 00 01 00 00 00 26 02 AD 72 62 32 AD 1F 82 2D AD DA DB 72
+             60 DC 38 04 8C 35 81 17 AD 72 62 DB 91 01 32 17 AD DA DB 72 60 DE
+             38 04 8D 35 0C AD DA DF 72 60 E0 38 04 8C 35 81 0B AD 72 62 DB 91
+             01 32 17 AD DA DB 72 60 E2 38 04 8D 35 0C AD DA DF 72 60 E3 38 04
+             8C 35 80 FF AD DA DB 72 60 E5 38 04 8C 35 81 07 AD DA DB 72 60 E7
+             38 04 8C 35 81 0F AD 72 62 DB 91 01 32 17 AD DA DB 72 60 E9 38 04
+             8D 35 0C AD DA DF 72 60 EA 38 04 8C 35 81 04 AD 72 62 DB 91 01 32
+             17 AD DA DB 72 60 EC 38 04 8D 35 0C AD DA DF 72 60 ED 38 04 8C 35
+             80 F9 AD DA DB 72 60 EF 38 04 8C 35 81 02 AD DA DB 72 60 F1 38 04
+             8C 35 81 0B AD 72 62 DB 91 01 32 17 AD DA DB 72 60 F3 38 04 8D 35
+             0C AD DA DF 72 60 F4 38 04 8C 35 81 01 AD 72 62 DB 91 01 32 17 AD
+             DA DB 72 60 F6 38 04 8D 35 0C AD DA DF 72 60 F7 38 04 8C 35 80 F7
+             AD DA DB 72 60 65 1F 38 04 8D 35 81 1B AD DB 38 01 72 60 28 FE EC
+             1D 80 F0 65 20 AE C6 14 38 01 72 60 6C FE DD 33 02 37 19 02 C8 19
+             02 AD DB 38 01 72 60 28 FE CC 1D 72 DD AE C6 1B 60 CC 19 02 AD DF
+             38 01 72 60 28 FE B9 1D 72 E1 AE CA 1B 4D CF 19 02 AD DF 38 01 72
+             60 28 FE A6 1D 72 E4 AE CA 1B FF B9 D1 19 02 AD DB 38 01 72 60 28
+             FE 92 1D 72 E6 AE C6 1B FF A5 D3 19 02 AD DB 38 01 72 60 28 FE 7E
+             1D 72 E8 AE C6 1B FF 91 D6 19 02 AD DF 38 01 72 60 28 FE 6A 1D 72
+             EB AE CA 1B FF 7D D9 19 02 AD DF 38 01 72 60 28 FE 56 1D 72 EE AE
+             CA 1B FF 69 03 16 19 02 AD DB 38 01 72 60 28 FE 41 1D 71 F0 AE C6
+             1B FF 54 03 18 19 02 AD DB 38 01 72 60 28 FE 2C 1D 71 F2 AE C6 1B
+             FF 3F 03 1B 19 02 AD DF 38 01 72 60 28 FE 17 1D 71 F5 AE CA 1B FF
+             2A 03 1E 19 02 AD DF 38 01 72 60 28 FE 02 1D 71 65 1E AE CA 1B FF
+             14 03 20 19 02 C6 19 02 AD DB 38 01 72 60 28 FD E9 1D 72 AD DB 38
+             01 72 60 6C FD DE 32 B1 19 02 AD DA DB 72 60 65 21 38 04 8C 35 5C
+             00 19 02 19 02)
+       (0. 1. "M" 1000. "C" 2. "CM" 900. "C" "CD" 400. "D" 500. "C" 100. "X"
+        "XC" 90. "X" "XL" 40. "L" 50. "X" 10. "I" "IX" 9. "I" "IV" 4. "V" 5.
+        "I")
+       (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|)
+       (|COMMON-LISP|::|STRING|)
+       "Converts the roman numeral received as argument to the corresponding natural (Arabic) numeral and returns it."
+       1))
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
